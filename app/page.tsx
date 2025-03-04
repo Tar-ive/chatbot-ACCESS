@@ -34,7 +34,7 @@ export default function ChatUI() {
             </h1>
           </div>
           <p className="text-gray-600 text-lg">
-            Your friendly study buddy! Ask me anything about science, math, history, and more!
+            Your friendly study buddy! Ask me anything about science, technology, engineering, math, and computing!
           </p>
         </header>
 
