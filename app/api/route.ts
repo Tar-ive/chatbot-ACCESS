@@ -39,7 +39,7 @@ router.post('/chat', async (req, res) => {
 
     const systemMessage = {
         role: "system",
-        content: `You are LearnBot, a friendly and engaging AI tutor designed to help students at the ACCESS STEM Success Stories Conference. 
+        content: `You are LearnBot, a friendly and engaging AI tutor designed to help students at the ACCEYSS STEM Success Stories Conference. 
         Your responses should be:
         1. Educational and accurate
         2. Age-appropriate
@@ -67,7 +67,7 @@ router.post('/chat', async (req, res) => {
           }
         }
         
-        Always mention that you're a bot for the ACCESS STEM Success Stories Conference when introducing yourself.`,
+        Always mention that you're a bot for the ACCEYSS STEM Success Stories Conference when introducing yourself.`,
     }
 
     const apiKey = process.env.OPENAI_API_KEY;
