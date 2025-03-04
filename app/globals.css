@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #ffffff;
+  --text-color: #333333;
+  --accent-color: #ffb948;
+  --transition-speed: 0.5s;
+  --spacing-unit: 20px;
+  --border-radius: 16px;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  transition: all var(--transition-speed) ease;
+}
+
+.message.active-style {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
